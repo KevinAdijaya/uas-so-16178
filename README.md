@@ -4,3 +4,4 @@ Subdomain: admin.*, mail.*
 Ports: 22,53,80,21,40000-40100,25,143
 Restore: cp *.conf ke /etc/... + systemctl reload
 Note: Apache dipakai ganti nginx.conf, db-schema.sql ganti my.cnf. Semua secret ***REDACTED***.
+# uas-so-16178
